@@ -15,8 +15,6 @@ time.sleep(5)
 # Finding the search bar and entering text "Music"
 search_bar = driver.find_element(By.XPATH, "/html/body/ytd-app/div[1]/div/ytd-masthead/div[4]/div[2]/ytd-searchbox/form/div[1]/div[1]/input")
 search_bar.send_keys("Music")
-
-# Search
 search_bar.send_keys(Keys.RETURN)
 time.sleep(5)
 
